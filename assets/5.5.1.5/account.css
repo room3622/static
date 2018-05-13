@@ -1,0 +1,49 @@
+
+Fatal error: Uncaught exception 'Assetic\Exception\FilterException' with message 'An error occurred while running:
+'/usr/bin/node' '/tmp/assetic_less3wB68V'
+
+Error Output:
+NameError: variable @primary_font is undefined in /omerta/src/data/assets/omerta/main/layout/assets/css/game/button.less on line 14, column 16:
+13 
+14   font-family: @primary_font;
+15   font-size: 12px;
+
+
+
+Input:
+// Less HAT
+@import "../../../../../vendor/less/lesshat/3.0.2";
+// Omerta helper
+@import "../../../../../vendor/omerta/less/helper";
+
+
+/**
+ * 	FONTS
+ */
+@import url(//fonts.googleapis.com/css?family=Arimo:400,700,400italic,700italic);
+
+@import '../../../layout/assets/css/utils.less';
+@import '../../../layout/assets/css/extras/dead_container';
+@import '../../../layout/assets/css/game/button';
+
+html
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font:		75% 'Lucida Sans Unicode','Lucida Grande',arial,helvetica,sans-serif;
+  background:	#e2e2e2;
+  overflow-x: hidden;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+/**
+ * 	SPLASH SCREENS
+ *
+ */
+#spla in /omerta/deps/kriswallsmith/assetic/src/Assetic/Exception/FilterException.php on line 40
